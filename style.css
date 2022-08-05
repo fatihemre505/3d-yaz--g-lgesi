@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #252525;
+    width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --color: #1e90ff;
+    --colormain: #3742fa;
+}
+
+h2 {
+    cursor: pointer;
+    user-select: none;
+    color: var(--colormain);
+    font-size: 6rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: -1px 1px var(--color),
+        -2px 1px var(--color),
+        -3px 1px var(--color),
+        -4px 1px var(--color),
+        -5px 1px var(--color),
+        -6px 1px var(--color),
+        -7px 1px var(--color),
+        -8px 1px var(--color),
+        -9px 1px var(--color),
+        -10px 1px var(--color),
+        -20px 20px 5px rgba(0, 0, 0, 0.8);
+}
